@@ -27,17 +27,19 @@
 	5.4 - Alignments
 --------------------------------------------------------------*/
 
-
 /*--------------------------------------------------------------
 1.0 - TYPOGRAPHY
 -------------------------------------------------------------- */
+
 html {
 	font-size: 14px;
 }
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 }
+
 /*--------------------------------------------------------------
 1.1 - BODY
 -------------------------------------------------------------- */
@@ -47,7 +49,7 @@ body {
 }
 
 .lead span {
-	color:#77cae6;
+	color: #77cae6;
 	font-weight: 800;
 }
 
@@ -68,9 +70,10 @@ h2 {
 }
 
 h3 {
-	font-weight: 300;
 	font-size: 2rem;
+	font-weight: 300;
 }
+
 h4 {
 	margin-bottom: 0;
 }
@@ -78,28 +81,35 @@ h4 {
 /*--------------------------------------------------------------
 1.4 - FORMS
 -------------------------------------------------------------- */
+
 form {
-	padding-left:20px;
+	padding-left: 20px;
 }
+
 form div {
 	padding: 10px;
 }
+
 form .col-1 {
 	padding-right: 2rem !important;
 }
+
 label {
-	display:none;
+	display: none;
 }
+
 input, textarea {
 	background-color: #19896e;
 	width: 100%;
 	padding: 10px;
-	border:1px solid #19896e;
+	border: 1px solid #19896e;
 }
+
 input:focus, textarea:focus {
-	outline:none;
-	border:1px solid #115e4b;
+	outline: none;
+	border: 1px solid #115e4b;
 }
+
 ::-webkit-input-placeholder {
    color: white;
 }
@@ -115,14 +125,15 @@ input:focus, textarea:focus {
 :-ms-input-placeholder {  
    color: white;  
 }
+
 form a {
 	margin-top: 20px;
-	padding:10px 20px;
+	padding: 10px 20px;
 	background-color: #146c57;
 	text-transform: uppercase;
 	color: white;
 	text-decoration: none;
-	display:inline-block;
+	display: inline-block;
 	font-weight: 600;
 }
 
@@ -131,19 +142,33 @@ form a:hover {
 	background-color: white;
 	
 }
+
 /*--------------------------------------------------------------
 1.5 - LISTS
 -------------------------------------------------------------- */
-dt, dd {
-	display: inline-block
+
+ul {
+	padding-left: 0;
 }
-dt {
-	font-weight:100;
-	width: 20px;
+
+footer li {
+	font-weight: 100;
+	display: block;
 }
-dd {
+
+footer li a {
+	color: white;
+	text-decoration: none;
+}
+
+footer li a:hover {
+	background-color: rgba(255,255,255,.5);
+}
+
+footer span {
 	font-weight: 600;
 }
+
 /*--------------------------------------------------------------
 2.0 - MAIN MENU
 -------------------------------------------------------------- */
@@ -153,7 +178,7 @@ nav {
 }
 
 nav li  {
-	display:inline-block;
+	display: inline-block;
 	list-style: none;
 	padding: 0 20px;
     font-weight: 700;
@@ -162,14 +187,12 @@ nav li  {
 nav a {
 	color: white;
 	text-decoration: none;
-	padding:10px;
+	padding: 10px;
 }
 
 nav a:hover {
 	background-color: rgba(255,255,255,.5);
 }
-
-
 
 /*--------------------------------------------------------------
 3.0 - SITE STRUCTURE
@@ -208,14 +231,10 @@ figure {
 	padding: 0 2rem 2rem 0;
 }
 
-[class*="col-"]:last-of-type {
-	float: left;
-	padding-right: 0;
-}
-
 /*--------------------------------------------------------------
 3.1 - SINGLE COLUMNS
 -------------------------------------------------------------- */
+
 .col-1 {
 	width: 100%;
 }
@@ -265,6 +284,7 @@ figure {
 .col-1-12 {
 	width: 8.33%;
 }
+
 /*--------------------------------------------------------------
 3.2 - PARTIAL COLUMNS
 -------------------------------------------------------------- */
@@ -341,13 +361,16 @@ figure {
 .col-9-12 {
 	width: 91.67%;
 }
+
 /*--------------------------------------------------------------
 3.3 - SECTIONS
 -------------------------------------------------------------- */
+
 /*-- Services -- */
+
 #services section div {
 	background-color: #1c7897;
-	padding:20px 10px;
+	padding: 20px 10px;
 }
 
 /*--------------------------------------------------------------
@@ -355,7 +378,7 @@ figure {
 -------------------------------------------------------------- */
 
 #hero { 
-  background: url(../img/hero.jpeg) no-repeat center center fixed; 
+  background: url(../img/hero.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -364,7 +387,8 @@ figure {
 
 #map {
 	height: 200px;
-	margin-top:100px;
+	margin-top: 100px;
+	width: 50%;
 }
 
 /*--------------------------------------------------------------
@@ -374,45 +398,58 @@ figure {
 /*--------------------------------------------------------------
 5.1 - BG COLORS
 -------------------------------------------------------------- */
+
 #services {
-	background-color:#218FB4;
+	background-color: #218fb4;
 }
 #contact {
-	background-color:#21b490;
+	background-color: #21b490;
 }
+
 /*--------------------------------------------------------------
 5.2 - TXT UTILITY
 -------------------------------------------------------------- */
+
 .txt-uppercase {
-	text-transform:uppercase;
+	text-transform: uppercase;
 }
+
 .txt-center {
 	text-align: center;
 }
+
 /*--------------------------------------------------------------
 5.3 - SPACING
 -------------------------------------------------------------- */
+
 .p-t-sm {
 	padding-top: 10px;
 }
+
 .p-t-md {
 	padding-top: 20px;
 }
+
 .p-t-lg {
 	padding-top: 50px;
 }
+
 .p-b-lg {
 	padding-bottom: 50px;
 }
+
 .p-b-xl {
 	padding-bottom: 100px;
 }
+
 .m-t-0 {
 	margin-top: 0;
 }
+
 .m-b-lg {
 	margin-bottom: 50px;
 }
+
 /*--------------------------------------------------------------
 5.4 - ALIGNMENTS
 -------------------------------------------------------------- */
@@ -426,12 +463,68 @@ figure {
 	float: right !important;
 }
 
-
-
-
-
-
 @media screen and (max-width: 768px) {
 	
+/*--------------------------------------------------------------
+TABLET DISPLAY SIZE
+-------------------------------------------------------------- */
 	
+/*--------------------------------------------------------------
+3.0 - SITE STRUCTURE
+-------------------------------------------------------------- */
+
+.wrapper {
+	width: 90%;
+}
+
+h1 {
+	margin-top: -3rem;
+}
+
+.col-1-2 {
+	text-align: center;
+}
+
+.col-1-2 .col-1-2, #map {
+	width: 100%;
+}
+
+.col-1-2:last-of-type {
+	width: 100%;
+}
+
+.col-1-4 {
+	width: 100%;
+	margin-bottom: 50px;
+	padding-bottom: 2rem;
+}
+
+.col-1-6 {
+	width: 50%;
+	float: none;
+	margin: 0 auto;
+}
+
+.col-3-5 {
+	width: 100%;
+}
+
+a {
+	padding: 0;
+}
+
+nav {
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	padding: 0;
+	display: inline-block;
+}	
+
 }
